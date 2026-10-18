@@ -1,11 +1,11 @@
 # texpad mobile
 
-A phone-sized companion to [texpad](https://github.com/JanAulichTum/texpad-latex):
+A phone-sized companion to [texpad](https://github.com/JanAulich/texpad-latex):
 edit `.tex`/`.bib` files from any GitHub repo, push commits straight from your
 phone, and compile in the cloud via GitHub Actions -- no LaTeX install, no
 app-store review, works on iPhone and Android identically.
 
-**Live app:** https://JanAulichTum.github.io/texpad-mobile/
+**Live app:** https://JanAulich.github.io/texpad-mobile/
 
 ## Setup (once)
 
@@ -47,7 +47,7 @@ small service worker.
 ### Highlights sync with the desktop editor
 
 Colour-coded highlights are stored in `.texpad-marks.json` at the repo root
--- the exact same file [texpad.py](https://github.com/JanAulichTum/texpad-latex)'s
+-- the exact same file [texpad.py](https://github.com/JanAulich/texpad-latex)'s
 desktop editor reads and writes, not this browser's local storage. That's
 what makes them show up on the other device:
 
